@@ -1,8 +1,4 @@
-import {
-  Instagram,
-  ShieldCheck,
-  Twitter,
-} from "lucide-react";
+import { Instagram, ShieldCheck, Twitter } from "lucide-react";
 import Container from "@/components/container";
 
 const serviceLinks = [
@@ -23,7 +19,10 @@ const companyLinks = [
 
 export default function SiteFooter() {
   return (
-    <footer id="footer" className="border-t border-[#bccbb8]/20 bg-[#ebf7ed] pb-12 pt-20">
+    <footer
+      id="footer"
+      className="border-t border-[#bccbb8]/20 bg-[#ebf7ed] pb-12 pt-20"
+    >
       <Container>
         <div className="grid grid-cols-1 gap-10 md:grid-cols-4 md:gap-8">
           <div className="space-y-6">
@@ -64,12 +63,18 @@ export default function SiteFooter() {
             </h2>
             <ul className="space-y-4 text-base text-[#3d4a3c]">
               <li>
-                <a href="#" className="transition-colors duration-200 hover:text-[#006e2b]">
+                <a
+                  href="#"
+                  className="transition-colors duration-200 hover:text-[#006e2b]"
+                >
                   Privacy Policy
                 </a>
               </li>
               <li>
-                <a href="#" className="transition-colors duration-200 hover:text-[#006e2b]">
+                <a
+                  href="#"
+                  className="transition-colors duration-200 hover:text-[#006e2b]"
+                >
                   Terms of Service
                 </a>
               </li>
@@ -92,10 +97,14 @@ export default function SiteFooter() {
 
         <div className="mt-20 flex flex-col items-center justify-between gap-4 border-t border-[#bccbb8]/20 pt-8 md:flex-row">
           <p className="text-base text-[#3d4a3c]">
-            © 2024 Kashio Pakistan. All rights reserved.
+            © 2026 Kashio Pakistan. All rights reserved.
           </p>
           <div className="flex items-center gap-2 text-[#3d4a3c]">
-            <ShieldCheck size={19} className="text-[#006e2b]" aria-hidden="true" />
+            <ShieldCheck
+              size={19}
+              className="text-[#006e2b]"
+              aria-hidden="true"
+            />
             <span className="text-base">Secured by Kotli Secure Payments</span>
           </div>
         </div>
