@@ -53,7 +53,7 @@ export default function BusinessSection() {
           </div>
 
           <div className="order-1 space-y-8 md:order-2">
-            <h2 className="text-base lg:text-4xl font-semibold text-[#141e18]">
+            <h2 className="lg:text-4xl text-2xl font-extrabold lg:leading-16 tracking-[-0.01em] text-[#141e18]">
               Grow your business with Kashio
             </h2>
             <p className="max-w-[560px] text-base leading-7 text-[#3d4a3c]">
@@ -72,7 +72,7 @@ export default function BusinessSection() {
       <section id="about" className="overflow-hidden bg-white py-24">
         <Container className="grid grid-cols-1 items-center gap-12 md:grid-cols-2 md:gap-16">
           <div className="space-y-8">
-            <h2 className="text-base lg:text-4xl font-semibold text-[#141e18]">
+            <h2 className="lg:text-4xl text-2xl font-extrabold lg:leading-16 tracking-[-0.01em] text-[#141e18]">
               Earn by delivering
             </h2>
             <p className="max-w-[560px] text-base leading-7 text-[#3d4a3c]">

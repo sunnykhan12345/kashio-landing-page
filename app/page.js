@@ -13,15 +13,15 @@ export default function HomePage() {
     <>
       <SiteHeader />
       <main className="pt-20">
-        <Hero />
+        <Hero id="home" />
         <ValueBar />
-        <Services />
-        <HowItWorks />
+        <Services id="services" />
+        <HowItWorks id="how-it-works" />
         <LocalPartners />
-        <BusinessSection />
+        <BusinessSection id="about" />
         <LaunchCta />
       </main>
-      <SiteFooter />
+      <SiteFooter id="footer" />
     </>
   );
 }

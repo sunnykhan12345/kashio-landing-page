@@ -42,7 +42,7 @@ export default function LocalPartners() {
       <Container>
         <div className="mb-12 flex flex-col items-start justify-between gap-4 md:flex-row md:items-end">
           <div>
-            <h2 className="mb-2 text-base lg:text-xl font-semibold text-[#141e18]">
+            <h2 className="mb-2 text-2xl font-extrabold lg:leading-16 tracking-[-0.01em] text-[#141e18]">
               Best of Kotli
             </h2>
             <p className="text-base leading-7 text-[#3d4a3c]">

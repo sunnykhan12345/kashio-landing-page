@@ -13,7 +13,7 @@ export default function Hero() {
             Your city. Delivered.
           </div>
 
-          <h1 className="text-5xl font-extrabold leading-16 tracking-[-0.01em] text-[#141e18]">
+          <h1 className="lg:text-5xl text-4xl font-extrabold lg:leading-16 tracking-[-0.01em] text-[#141e18]">
             Everything you need,
             <br />
             <span className="text-[#12b94f]">delivered</span> across Kotli

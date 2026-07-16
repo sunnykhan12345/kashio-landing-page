@@ -36,7 +36,7 @@ export default function Services() {
     <section id="services" className="bg-[#f1fcf2] py-24">
       <Container>
         <div className="mb-16 text-center">
-          <h2 className="mb-4 text-base lg:text-4xl font-semibold text-[#141e18]">
+          <h2 className="mb-4 lg:text-4xl text-2xl font-extrabold lg:leading-16 tracking-[-0.01em] text-[#141e18]">
             One app for everyday deliveries
           </h2>
           <p className="mx-auto max-w-2xl text-base leading-7 text-[#3d4a3c]">
